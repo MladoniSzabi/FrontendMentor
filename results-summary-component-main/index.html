@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Results summary component</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+
+  <main>
+    <section id="result-container">
+      <h2>Your Result</h2>
+
+      <div id="score-div">
+        <p id="your-result">76</p>
+        <p>of <span id="max-result">100</span></p>
+      </div>
+
+      <h3 id="feedback">Great</h3>
+      <p id="percentage-compare">You scored higher than <span id="leaderboard-rank">65%</span> of the people who have
+        taken these tests.</p>
+    </section>
+
+    <section id="summary-container">
+      <h2>Summary</h2>
+
+      <div class="summary-component red">
+        <span>
+          <img class="icon" src="./assets/images/icon-reaction.svg" alt="icon" />
+          <span class="name">Reaction</span>
+        </span>
+        <span class="score"><span class="bold">80</span> / 100</span>
+      </div>
+
+      <div class="summary-component yellow">
+        <span>
+          <img class="icon" src="./assets/images/icon-memory.svg" alt="icon" />
+          <span class="name">Memory</span>
+        </span>
+        <span class="score"><span class="bold">92</span> / 100</span>
+      </div>
+
+      <div class="summary-component green">
+        <span>
+          <img class="icon" src="./assets/images/icon-verbal.svg" alt="reaction icon" />
+          <span class="name">Verbal</span>
+        </span>
+        <span class="score"><span class="bold">61</span> / 100</span>
+      </div>
+
+      <div class="summary-component blue">
+        <span>
+          <img class="icon" src="./assets/images/icon-visual.svg" alt="reaction icon" />
+          <span class="name">Visual</span>
+        </span>
+        <span class="score"><span class="bold">72</span> / 100</span>
+      </div>
+
+      <div id="button-container">
+        <button id="continue">Continue</button>
+      </div>
+    </section>
+  </main>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by Szabolcs Mladoniczky.
+  </footer>
+</body>
+
+</html>
