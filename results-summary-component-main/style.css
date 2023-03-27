@@ -165,6 +165,15 @@ button:active {
     text-align: center;
 }
 
+.summary-component> :first-child {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    margin-right: 0.6em;
+}
+
 .score {
     color: grey
 }
